@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(120deg, #e8f2ff 60%, #f5fcff 100%);
+  /* 柔和浅蓝为主色 */
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+/* 侧边栏美化 */
+.sidebar {
+  background: #e8f2ff;
+  border-right: 1px solid #c7dbf7;
+}
+
+/* 选中和悬停颜色 */
+.sidebar .active, .sidebar li > a:hover, .sidebar li.active > a {
+  background: #c7dbf7;
+  color: #25497a !important;
+  font-weight: bold;
+}
+
+/* 目录标题 */
+.sidebar-nav > ul > li > a {
+  font-size: 1.05em;
+}
+
+/* 添加装饰圆点 */
+body:before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  left: 2vw; top: 8vh;
+  width: 15px; height: 15px;
+  background: rgba(135, 177, 255, 0.45);
+  border-radius: 50%;
+  box-shadow:
+    20vw 30vh 12px 6px rgba(204,228,255,0.28),
+    50vw 65vh 12px 8px rgba(193,220,255,0.22),
+    80vw 24vh 8px 3px rgba(155,200,255,0.22),
+    92vw 78vh 12px 6px rgba(195,180,230,0.16);
+  z-index: 0;
+}
+
+/* 内容区域投影 */
+.content {
+  background: #fff;
+  box-shadow: 0 6px 24px 0 rgba(122,168,240,0.12);
+  border-radius: 8px;
+  padding: 2em 2.5em;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+/* 让左侧导航高度占满 */
+.sidebar, .sidebar-nav {
+  min-height: 100vh !important;
+}
+
+/* 调整滚动条美观 */
+::-webkit-scrollbar {
+  width: 8px; background: #e8f2ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #b2d0f6; border-radius: 4px;
+}
