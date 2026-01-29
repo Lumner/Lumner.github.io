@@ -1,0 +1,10 @@
+- [🏠 首页](/README.md)
+- 数理
+  - [高等数学](pdf/math/calculus/chapter1.pdf)
+  - [线性代数](pdf/math/linear_algebra/chapter1.pdf)
+  - [概率与统计](pdf/math/probstat/basic_probability.pdf)
+- 计算机科学（CS）
+  - [Python](pdf/cs/python/intro.pdf)
+  - [C++](pdf/cs/cpp/basics.pdf)
+  - [数据结构](pdf/cs/data_structure/linear_list.pdf)
+  - [算法](pdf/cs/algorithm/sorting.pdf)
